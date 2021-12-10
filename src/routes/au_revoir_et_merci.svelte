@@ -1,7 +1,7 @@
 <script>
-	let pics = ['DSC00099', 'DSC08532', 'DSC08534', 'DSC08532'];
+	let pics = ['DSC00010', 'DSC01106', 'DSC01108', 'DSC01113'];
 
-	let folder = 'amour_et_mort';
+	let folder = 'au_revoir_et_merci';
 
 	let paths = [];
 
