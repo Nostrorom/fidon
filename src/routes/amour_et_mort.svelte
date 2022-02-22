@@ -1,19 +1,29 @@
 <script>
-	let pics = ['DSC00099', 'DSC08532', 'DSC08534', 'DSC08532'];
-
-	let folder = 'amour_et_mort';
-
-	let paths = [];
-
-	$: pics.forEach((pic) => {
-		paths.push(`static/${folder}/${pic}.jpg`);
-	});
-
-	console.log(paths);
+	import Pic from '$lib/Pic.svelte';
+	let pics = [
+		{
+			name: "L'amour et la mort 1",
+			src: 'https://i.ibb.co/2tM7zyZ/SONY-DSC.jpg',
+			technique: 'huile sur toile',
+			dimensions: '3 x 3 m'
+		},
+		{
+			name: "L'amour et la mort 2",
+			src: 'https://i.ibb.co/gwVthsw/SONY-DSC.jpg',
+			technique: 'huile sur toile',
+			dimensions: '3 x 3 m'
+		},
+		{
+			name: "L'amour et la mort 3",
+			src: 'https://i.ibb.co/qjwwJq1/SONY-DSC.jpg',
+			technique: 'huile sur toile',
+			dimensions: '3 x 3 m'
+		}
+	];
 </script>
 
-{#each paths as src}
-	<div class="py-4 flex justify-center">
-		<img {src} alt="painting" class="h-full w-fullshadow-2xl object-contain" />
-	</div>
-{/each}
+<div class="">
+	{#each pics as pic}
+		<Pic {pic} />
+	{/each}
+</div>

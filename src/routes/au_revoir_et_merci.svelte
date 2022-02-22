@@ -1,19 +1,65 @@
 <script>
-	let pics = ['DSC00010', 'DSC01106', 'DSC01108', 'DSC01113'];
-
-	let folder = 'au_revoir_et_merci';
-
-	let paths = [];
-
-	$: pics.forEach((pic) => {
-		paths.push(`static/${folder}/${pic}.jpg`);
-	});
-
-	console.log(paths);
+	import Pic from '$lib/Pic.svelte';
+	let pics = [
+		{
+			name: 'Au revoir et merci 1',
+			src: 'https://i.ibb.co/pXbjh5S/SONY-DSC.jpg',
+			technique: 'huile sur toile',
+			dimensions: '3 x 3 m'
+		},
+		{
+			name: 'Au revoir et merci 2',
+			src: 'https://i.ibb.co/LnYvcfn/SONY-DSC.jpg',
+			technique: 'huile sur toile',
+			dimensions: '3 x 3 m'
+		},
+		{
+			name: 'Au revoir et merci 3',
+			src: 'https://i.ibb.co/WB9HbxZ/SONY-DSC.jpg',
+			technique: 'huile sur toile',
+			dimensions: '3 x 3 m'
+		},
+		{
+			name: 'Au revoir et merci 4',
+			src: 'https://i.ibb.co/z7nLdNh/SONY-DSC.jpg',
+			technique: 'huile sur toile',
+			dimensions: '3 x 3 m'
+		},
+		{
+			name: 'Au revoir et merci 5',
+			src: 'https://i.ibb.co/TYNn746/SONY-DSC.jpg',
+			technique: 'huile sur toile',
+			dimensions: '3 x 3 m'
+		},
+		{
+			name: 'Au revoir et merci 6',
+			src: 'https://i.ibb.co/6mR3CrT/SONY-DSC.jpg',
+			technique: 'huile sur toile',
+			dimensions: '3 x 3 m'
+		},
+		{
+			name: 'Au revoir et merci 7',
+			src: 'https://i.ibb.co/qRHYTH0/SONY-DSC.jpg',
+			technique: 'huile sur toile',
+			dimensions: '3 x 3 m'
+		},
+		{
+			name: 'Au revoir et merci 8',
+			src: 'https://i.ibb.co/tZSQZdm/SONY-DSC.jpg',
+			technique: 'huile sur toile',
+			dimensions: '3 x 3 m'
+		},
+		{
+			name: 'Au revoir et merci 9',
+			src: 'https://i.ibb.co/jD81TDM/SONY-DSC.jpg',
+			technique: 'huile sur toile',
+			dimensions: '3 x 3 m'
+		}
+	];
 </script>
 
-{#each paths as src}
-	<div class="py-4 flex justify-center">
-		<img {src} alt="painting" class="h-full w-fullshadow-2xl object-contain" />
-	</div>
-{/each}
+<div class="">
+	{#each pics as pic}
+		<Pic {pic} />
+	{/each}
+</div>
