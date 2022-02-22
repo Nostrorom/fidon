@@ -1,9 +1,6 @@
 {
 	"name": "fidon",
 	"version": "0.0.2",
-	"engines": {
-		"node": "17.x"
-	},
 	"scripts": {
 		"dev": "svelte-kit dev",
 		"build": "svelte-kit build",
