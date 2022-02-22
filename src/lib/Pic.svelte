@@ -18,7 +18,7 @@
 		<img src={pic.src} alt={pic.name} class="max-h-screen shadow-2xl" />
 	</div>
 	<div class="w-1/5">
-		<div class="ml-2 px-2 pb-6 border-l-2 border-zinc-500 space-y-2">
+		<div class="ml-2 px-2 pb-4 border-l-2 border-zinc-500 space-y-2">
 			<h6 class="italic text-amber-300">
 				{pic.name}
 			</h6>

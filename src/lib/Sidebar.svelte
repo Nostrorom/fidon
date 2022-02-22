@@ -1,42 +1,18 @@
 <script>
 	import { page } from '$app/stores';
 	import Icon from '$lib/Icon.svelte';
-
-	let series = [
-		{
-			title: "L'amour et la mort",
-			path: '/amour_et_mort',
-			image: 'https://i.ibb.co/2tM7zyZ/SONY-DSC.jpg'
-		},
-		{
-			title: 'Au revoir et merci',
-			path: '/au_revoir_et_merci',
-			image: 'https://i.ibb.co/pXbjh5S/SONY-DSC.jpg'
-		},
-		{
-			title: 'Babel',
-			path: '/babel',
-			image: 'https://i.ibb.co/wzNSTty/SONY-DSC.jpg'
-		},
-		{
-			title: 'Batailles',
-			path: '/batailles',
-			image: 'https://i.ibb.co/vwhHSf5/SONY-DSC.jpg'
-		}
-	];
-
-	$: console.log($page.path);
+	import series from '$lib/series.json';
 </script>
 
 <header class="w-full h-full flex flex-col items-center text-zinc-400">
 	<div class="">
 		<a href="/">
-			<h1 class="font-hand text-3xl text-amber-400 py-4 px-4 text-left">Jérôme FIDON</h1>
+			<h1 class="font-hand text-3xl text-amber-400 py-4 px-4 text-center">Jérôme FIDON</h1>
 		</a>
 	</div>
 
 	<nav class="h-full w-full px-2">
-		<ul class="space-y-1 text-zinc-300">
+		<ul class="space-y-0 text-zinc-300">
 			{#each series as serie}
 				<li class="w-full ">
 					<a sveltekit:prefetch href={serie.path}>

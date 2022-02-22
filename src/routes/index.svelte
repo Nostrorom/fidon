@@ -3,29 +3,8 @@
 </script>
 
 <script>
-	import Category from '$lib/Category.svelte';
-	let categories = [
-		{
-			name: "L'amour et la mort",
-			image: 'https://i.ibb.co/2tM7zyZ/SONY-DSC.jpg',
-			link: '/amour_et_mort'
-		},
-		{
-			name: 'Au revoir et merci',
-			image: 'https://i.ibb.co/pXbjh5S/SONY-DSC.jpg',
-			link: '/au_revoir_et_merci'
-		},
-		{
-			name: 'Babel',
-			image: 'https://i.ibb.co/wzNSTty/SONY-DSC.jpg',
-			link: '/babel'
-		},
-		{
-			name: 'Batailles',
-			image: 'https://i.ibb.co/vwhHSf5/SONY-DSC.jpg',
-			link: '/batailles'
-		}
-	];
+	import Serie from '$lib/Serie.svelte';
+	import series from '$lib/series.json';
 </script>
 
 <svelte:head>
@@ -33,9 +12,9 @@
 </svelte:head>
 
 <section class="grid grid-cols-3">
-	{#each categories as category}
+	{#each series as serie}
 		<div class="col-span-1 h-72">
-			<Category {category} />
+			<Serie {serie} />
 		</div>
 	{/each}
 </section>
