@@ -99,10 +99,29 @@
 		"path": "/morceaux_choisis",
 		"image": "https://i.ibb.co/Lp9KRxL/SONY-DSC.jpg"
 	},
-
+	{
+		"title": "Œuvres anciennes",
+		"path": "/oeuvres_anciennes",
+		"image": "https://i.ibb.co/n7ys7CV/SONY-DSC.jpg"
+	},
 	{
 		"title": "Oiseaux",
 		"path": "/oiseaux",
-		"image": "https://i.ibb.co/BjghfWt/SONY-DSC.jpg"
+		"image": "https://i.ibb.co/q5Chc91/SONY-DSC.jpg"
+	},
+	{
+		"title": "Plages",
+		"path": "/plages",
+		"image": "https://i.ibb.co/q5Chc91/SONY-DSC.jpg"
+	},
+	{
+		"title": "Recueillement",
+		"path": "/recueillement",
+		"image": "https://i.ibb.co/q5Chc91/SONY-DSC.jpg"
+	},
+	{
+		"title": "Trombines",
+		"path": "/trombines",
+		"image": "https://i.ibb.co/q5Chc91/SONY-DSC.jpg"
 	}
 ]
