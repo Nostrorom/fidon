@@ -13,9 +13,9 @@
 	<Lightbox on:toggle={toggleLightbox} src={pic.src} />
 {/if}
 
-<div class="flex py-4 " on:click={toggleLightbox}>
+<div class="flex py-4 ">
 	<div class="w-4/5 flex items-center justify-center">
-		<img src={pic.src} alt={pic.name} class="max-h-screen shadow-2xl" />
+		<img on:click={toggleLightbox} src={pic.src} alt={pic.name} class="max-h-screen shadow-2xl" />
 	</div>
 	<div class="w-1/5">
 		<div class="ml-2 px-2 pb-4 border-l-2 border-zinc-500 space-y-2">

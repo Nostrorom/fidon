@@ -4,14 +4,14 @@
 	import series from '$lib/series.json';
 </script>
 
-<header class="w-full h-full  flex flex-col items-center justify-between text-zinc-400">
+<header class="w-full h-full  flex flex-col items-center justify-between text-zinc-400 px-2">
 	<div class="">
 		<a href="/">
-			<h1 class="font-hand text-3xl text-amber-400 py-4 px-4 text-center">Jérôme FIDON</h1>
+			<h1 class="font-hand text-3xl text-amber-400 py-4 px-2 text-center">Jérôme FIDON</h1>
 		</a>
 	</div>
 
-	<nav class=" overflow-y-scroll w-full px-2">
+	<nav class=" overflow-y-scroll w-full ">
 		<ul class="space-y-0 text-zinc-300">
 			{#each series as serie}
 				<li class="w-full ">
