@@ -19,7 +19,7 @@
 	</div>
 	<div class="w-1/5">
 		<div class="ml-2 px-2 pb-4 border-l-2 border-zinc-500 space-y-2">
-			<h6 class="italic text-amber-300">
+			<h6 class="italic text-amber-400">
 				{pic.name}
 			</h6>
 			<p class="text-zinc-400 text-sm">

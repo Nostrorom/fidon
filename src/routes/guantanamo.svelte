@@ -5,19 +5,19 @@
 			name: 'Guantanamo 1',
 			src: 'https://i.ibb.co/5GyhrbY/SONY-DSC.jpg',
 			technique: 'huile sur toile',
-			dimensions: '3 x 3 m'
+			dimensions: '185 x 130 cm'
 		},
 		{
 			name: 'Guantanamo 2',
 			src: 'https://i.ibb.co/0YFSJWJ/SONY-DSC.jpg',
 			technique: 'huile sur toile',
-			dimensions: '3 x 3 m'
+			dimensions: '185 x 130 cm'
 		},
 		{
 			name: 'Guantanamo 3',
 			src: 'https://i.ibb.co/YLN9QwG/SONY-DSC.jpg',
 			technique: 'huile sur toile',
-			dimensions: '3 x 3 m'
+			dimensions: '185 x 130 cm'
 		}
 	];
 </script>

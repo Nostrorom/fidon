@@ -5,7 +5,7 @@
 </script>
 
 <svelte:head />
-<main class="w-full min-h-screen bg-zinc-700  from-zinc-700 to-zinc-700 via-zinc-700 z-0 flex">
+<main class="w-full min-h-screen bg-zinc-800  from-zinc-700 to-zinc-700 via-zinc-700 z-0 flex">
 	<div class="h-full fixed left-0 w-1/6 z-0">
 		<div class="h-full">
 			<Header />

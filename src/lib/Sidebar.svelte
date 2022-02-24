@@ -16,15 +16,16 @@
 			{#each series as serie}
 				<li class="w-full ">
 					<a sveltekit:prefetch href={serie.path}>
-						<div class="relative group">
+						<div class="relative group" class:text-amber-300={$page.url.pathname === serie.path}>
 							<img
 								src={serie.image}
 								alt={serie.title}
 								class="h-14 w-full object-cover grayscale opacity-70 group-hover:grayscale-0 group-hover:opacity-100"
+								class:grayscale-0={$page.url.pathname === serie.path}
 							/>
 							<div
 								class="absolute top-0 w-full bg-zinc-900 bg-opacity-70 group-hover:bg-opacity-30 leading-tight py-1 px-3 h-full flex items-center justifiy-center hover:text-white"
-								class:text-amber-300={$page.url.pathname === serie.path}
+								class:bg-zinc-700={$page.url.pathname === serie.path}
 							>
 								{serie.title}
 							</div>
