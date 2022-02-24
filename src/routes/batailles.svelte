@@ -22,25 +22,25 @@
 		{
 			name: 'Batailles 4',
 			src: 'https://i.ibb.co/9V0FhNd/batailles-4.jpg',
-			technique: 'huile sur toile',
+			technique: 'encre sur papier',
 			dimensions: '20 x 20 cm'
 		},
 		{
 			name: 'Batailles 5',
 			src: 'https://i.ibb.co/xJzcJX4/batailles-5.jpg',
-			technique: 'huile sur toile',
+			technique: 'encre sur papier',
 			dimensions: '20 x 20 cm'
 		},
 		{
 			name: 'Batailles 6',
 			src: 'https://i.ibb.co/3m3VDc6/batailles-6.jpg',
-			technique: 'huile sur toile',
+			technique: 'encre sur papier',
 			dimensions: '20 x 20 cm'
 		},
 		{
 			name: 'Batailles 7',
 			src: 'https://i.ibb.co/tcZ3B9k/batailles-7.jpg',
-			technique: 'huile sur toile',
+			technique: 'encre sur papier',
 			dimensions: '20 x 20 cm'
 		}
 	];

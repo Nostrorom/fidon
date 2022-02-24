@@ -82,7 +82,7 @@
 		{
 			name: 'Les équilibristes 14',
 			src: 'https://i.ibb.co/CHFC2fn/SONY-DSC.jpg',
-			technique: 'huile sur toile',
+			technique: 'crayon sur papier',
 			dimensions: '30 x 20 cm'
 		}
 	];

@@ -58,7 +58,7 @@
 		{
 			name: 'Dessins 10',
 			src: 'https://i.ibb.co/Hnwch95/SONY-DSC.jpg',
-			technique: 'pastel sur papier',
+			technique: 'crayon sur papier',
 			dimensions: '21 x 29,7 cm'
 		},
 		{
@@ -148,7 +148,7 @@
 		{
 			name: 'Dessins 26',
 			src: 'https://i.ibb.co/Mg3gdWJ/SONY-DSC.jpg',
-			technique: 'pastel sur papier',
+			technique: 'crayon sur papier',
 			dimensions: '21 x 29,7 cm'
 		},
 		{
@@ -160,25 +160,25 @@
 		{
 			name: 'Dessins 28',
 			src: 'https://i.ibb.co/6BWPT5b/SONY-DSC.jpg',
-			technique: 'pastel sur papier',
+			technique: 'crayon sur papier',
 			dimensions: '21 x 29,7 cm'
 		},
 		{
 			name: 'Dessins 29',
 			src: 'https://i.ibb.co/cgSMchC/SONY-DSC.jpg',
-			technique: 'pastel sur papier',
+			technique: 'crayon sur papier',
 			dimensions: '21 x 29,7 cm'
 		},
 		{
 			name: 'Dessins 30',
 			src: 'https://i.ibb.co/Tb344NM/SONY-DSC.jpg',
-			technique: 'pastel sur papier',
+			technique: 'crayon sur papier',
 			dimensions: '21 x 29,7 cm'
 		},
 		{
 			name: 'Dessins 31',
 			src: 'https://i.ibb.co/ydwB91s/SONY-DSC.jpg',
-			technique: 'pastel sur papier',
+			technique: 'crayon sur papier',
 			dimensions: '21 x 29,7 cm'
 		},
 		{
@@ -202,67 +202,67 @@
 		{
 			name: 'Dessins 36',
 			src: 'https://i.ibb.co/5GZhvNb/SONY-DSC.jpg',
-			technique: 'pastel sur papier',
+			technique: 'crayon sur papier',
 			dimensions: '21 x 29,7 cm'
 		},
 		{
 			name: 'Dessins 37',
 			src: 'https://i.ibb.co/bdm1ygy/SONY-DSC.jpg',
-			technique: 'pastel sur papier',
+			technique: 'crayon sur papier',
 			dimensions: '21 x 29,7 cm'
 		},
 		{
 			name: 'Dessins 38',
 			src: 'https://i.ibb.co/9bCJW5d/SONY-DSC.jpg',
-			technique: 'pastel sur papier',
+			technique: 'crayon sur papier',
 			dimensions: '21 x 29,7 cm'
 		},
 		{
 			name: 'Dessins 39',
 			src: 'https://i.ibb.co/2vYpTsF/SONY-DSC.jpg',
-			technique: 'pastel sur papier',
+			technique: 'crayon sur papier',
 			dimensions: '21 x 29,7 cm'
 		},
 		{
 			name: 'Dessins 40',
 			src: 'https://i.ibb.co/KFsnprR/SONY-DSC.jpg',
-			technique: 'pastel sur papier',
+			technique: 'crayon sur papier',
 			dimensions: '21 x 29,7 cm'
 		},
 		{
 			name: 'Dessins 41',
 			src: 'https://i.ibb.co/2Z6VgKh/SONY-DSC.jpg',
-			technique: 'pastel sur papier',
+			technique: 'crayon sur papier',
 			dimensions: '21 x 29,7 cm'
 		},
 		{
 			name: 'Dessins 42',
 			src: 'https://i.ibb.co/TcBLpQv/SONY-DSC.jpg',
-			technique: 'pastel sur papier',
+			technique: 'crayon sur papier',
 			dimensions: '21 x 29,7 cm'
 		},
 		{
 			name: 'Dessins 43',
 			src: 'https://i.ibb.co/JW1YkKK/SONY-DSC.jpg',
-			technique: 'pastel sur papier',
+			technique: 'crayon sur papier',
 			dimensions: '21 x 29,7 cm'
 		},
 		{
 			name: 'Dessins 44',
 			src: 'https://i.ibb.co/Tcchy5Q/SONY-DSC.jpg',
-			technique: 'pastel sur papier',
+			technique: 'crayon sur papier',
 			dimensions: '21 x 29,7 cm'
 		},
 		{
 			name: 'Dessins 45',
 			src: 'https://i.ibb.co/cTBJhNQ/SONY-DSC.jpg',
-			technique: 'pastel sur papier',
+			technique: 'crayon sur papier',
 			dimensions: '21 x 29,7 cm'
 		},
 		{
 			name: 'Dessins 46',
 			src: 'https://i.ibb.co/Ws61dn2/SONY-DSC.jpg',
-			technique: 'pastel sur papier',
+			technique: 'crayon sur papier',
 			dimensions: '21 x 29,7 cm'
 		}
 	];
