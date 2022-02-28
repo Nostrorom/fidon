@@ -2,4 +2,4 @@
 
 Jérôme Fidon, painter
 
-[Jérôme's artwork](https://fidon.herokuapp.com)
+[Jérôme's artwork](https://jeromefidon.art)
