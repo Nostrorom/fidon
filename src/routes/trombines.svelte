@@ -280,6 +280,10 @@
 	];
 </script>
 
+<svelte:head>
+	<title>Trombines</title>
+</svelte:head>
+
 <div class="">
 	{#each pics as pic}
 		<Pic {pic} />

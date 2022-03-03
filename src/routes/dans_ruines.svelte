@@ -178,6 +178,10 @@
 	];
 </script>
 
+<svelte:head>
+	<title>Dans les ruines</title>
+</svelte:head>
+
 <div class="">
 	{#each pics as pic}
 		<Pic {pic} />
