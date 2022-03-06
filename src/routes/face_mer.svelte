@@ -70,6 +70,10 @@
 	];
 </script>
 
+<svelte:head>
+	<title>Face à la mer</title>
+</svelte:head>
+
 <div class="">
 	{#each pics as pic}
 		<Pic {pic} />

@@ -46,6 +46,10 @@
 	];
 </script>
 
+<svelte:head>
+	<title>Migrants</title>
+</svelte:head>
+
 <div class="">
 	{#each pics as pic}
 		<Pic {pic} />

@@ -34,6 +34,10 @@
 	];
 </script>
 
+<svelte:head>
+	<title>Le passsage</title>
+</svelte:head>
+
 <div class="">
 	{#each pics as pic}
 		<Pic {pic} />

@@ -52,6 +52,10 @@
 	];
 </script>
 
+<svelte:head>
+	<title>Morceaux choisis</title>
+</svelte:head>
+
 <div class="">
 	{#each pics as pic}
 		<Pic {pic} />

@@ -52,6 +52,10 @@
 	];
 </script>
 
+<svelte:head>
+	<title>Chorales d'ahuris</title>
+</svelte:head>
+
 <div class="">
 	{#each pics as pic}
 		<Pic {pic} />

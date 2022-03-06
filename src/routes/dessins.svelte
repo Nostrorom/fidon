@@ -268,6 +268,10 @@
 	];
 </script>
 
+<svelte:head>
+	<title>Dessins</title>
+</svelte:head>
+
 <div class="">
 	{#each pics as pic}
 		<Pic {pic} />

@@ -328,6 +328,10 @@
 	];
 </script>
 
+<svelte:head>
+	<title>Œuvres anciennes</title>
+</svelte:head>
+
 <div class="">
 	{#each pics as pic}
 		<Pic {pic} />

@@ -94,6 +94,10 @@
 	];
 </script>
 
+<svelte:head>
+	<title>Les errants</title>
+</svelte:head>
+
 <div class="">
 	{#each pics as pic}
 		<Pic {pic} />
