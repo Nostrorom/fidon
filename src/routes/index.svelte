@@ -13,16 +13,16 @@
 	<title>Fidon</title>
 </svelte:head>
 
-<section class="grid grid-cols-7">
+<section class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-7">
 	{#each series as serie}
-		<div class="col-span-1 h-52">
+		<div class="col-span-1 lg:h-52 bg-white">
 			<Serie {serie} />
 		</div>
 	{/each}
-	<div class="col-start-1 row-start-7 col-span-2" />
+	<div class="hidden xl:block col-start-1 row-start-7 col-span-2" />
 
 	<div
-		class="col-start-2 col-span-5 row-span-4 row-start-2 text-amber-300 opacity-90 p-8 flex items-center justify-center"
+		class="xl:col-start-2 col-span-2 md:col-span-3 lg:col-span-4 xl:col-span-5 xl:row-span-4 xl:row-start-2 text-amber-300 opacity-90 p-8 flex items-center justify-center"
 	>
 		<div class="space-y-3 leading-relaxed">
 			<h6 class="font-bold">Jérôme Fidon : la fabrique des images</h6>
